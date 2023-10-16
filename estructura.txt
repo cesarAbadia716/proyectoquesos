@@ -1,0 +1,22 @@
+proyectoquesos/
+├── gestionproductos/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── tests.py
+│   └── views.py
+├── proyectoquesos/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+├── templates/
+│   └── gestionproductos/
+│       ├── crear_producto.html
+│       ├── detalle_producto.html
+│       ├── eliminar_producto.html
+│       ├── lista_productos.html
+│       └── actualizar_producto.html
+└── manage.py

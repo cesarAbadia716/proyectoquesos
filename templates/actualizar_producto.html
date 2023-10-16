@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Actualizar Producto</title>
+    <!-- Agrega enlaces a Bootstrap CSS aquí -->
+</head>
+<body>
+    <div class="container">
+        <h1>Actualizar Producto</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="btn btn-primary">Actualizar</button>
+        </form>
+    </div>
+</body>
+</html>

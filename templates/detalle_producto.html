@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detalle del Producto</title>
+    <!-- Agrega enlaces a Bootstrap CSS aquí -->
+</head>
+<body>
+    <div class="container">
+        <h1>Detalle del Producto</h1>
+        <p><strong>Nombre:</strong> {{ producto.nombre }}</p>
+        <p><strong>Precio:</strong> {{ producto.precio }}</p>
+        <p><strong>Descripción:</strong> {{ producto.descripcion }}</p>
+        <a href="{% url 'actualizar_producto' producto.id %}" class="btn btn-primary">Editar</a>
+        <a href="{% url 'eliminar_producto' producto.id %}" class="btn btn-danger">Eliminar</a>
+    </div>
+</body>
+</html>
